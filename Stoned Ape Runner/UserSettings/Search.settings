@@ -13,6 +13,9 @@ scopes = {
 	"last_search.74AD8FDB" = "shoc"
 	"OpenInspectorPreview.74AD8FDB" = "0"
 	"currentGroup.74AD8FDB" = "all"
+	"last_search.E8DA15E5" = "mushr"
+	"OpenInspectorPreview.E8DA15E5" = "0"
+	"currentGroup.E8DA15E5" = "all"
 }
 providers = {
 	adb = {

@@ -2597,12 +2597,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 509478798}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ebcb0f0240cf4f44b2864cfc554beff, type: 3}
+  m_Script: {fileID: 11500000, guid: 576fcc8b1b9bbe348be6e8a15b43de14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cam1: {fileID: 925001405}
   cam2: {fileID: 1495883522}
-  waitTime: 0
+  waitTime: 0.15
 --- !u!1 &529489319 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8754829430757335793, guid: 3b18b743dffca43419628e974e545f92,
@@ -2636,7 +2636,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 561664793}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdf2954339d2f4747bf254b893eb3ad5, type: 3}
+  m_Script: {fileID: 11500000, guid: aca0cc26375fc2c44a6f8a4786431c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mushrooms:
@@ -5253,7 +5253,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1258011471}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ebcb0f0240cf4f44b2864cfc554beff, type: 3}
+  m_Script: {fileID: 11500000, guid: 576fcc8b1b9bbe348be6e8a15b43de14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cam1: {fileID: 1633556626}
