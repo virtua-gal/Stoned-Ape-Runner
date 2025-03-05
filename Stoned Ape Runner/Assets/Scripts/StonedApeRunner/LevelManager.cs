@@ -21,6 +21,7 @@ public class LevelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        print(levelNumber);
         startPos = transform.position;
         startRot = transform.rotation;
         HealthManager.subtractHealth = true;
@@ -113,11 +114,12 @@ public class LevelManager : MonoBehaviour
     void NextLevel()
     {
         levelNumber++;
-
+        print(levelNumber);
         if(levelNumber == numLevels)
         {
-            levelNumber = 1;
+            levelNumber = 0;
         }
+
 
         SceneManager.LoadScene(levelNumber);
     }
