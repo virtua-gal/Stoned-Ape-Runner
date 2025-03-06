@@ -117,7 +117,7 @@ public class LevelManager : MonoBehaviour
         print(levelNumber);
         if(levelNumber == numLevels)
         {
-            levelNumber = 0;
+            levelNumber = 4;
         }
 
 
