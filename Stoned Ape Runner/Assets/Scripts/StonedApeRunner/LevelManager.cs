@@ -18,6 +18,8 @@ public class LevelManager : MonoBehaviour
 
     public CameraChanger cameraChanger;
 
+    // FMOD.Studio.EventInstance pickUpSounds;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,7 @@ public class LevelManager : MonoBehaviour
         startRot = transform.rotation;
         HealthManager.subtractHealth = true;
         screenFade.SetActive(false);
+        // pickUpSounds = FMODUnity.RuntimeManager.CreateInstance("event:/game_music_path");
     }
 
     void OnTriggerEnter(Collider other)
